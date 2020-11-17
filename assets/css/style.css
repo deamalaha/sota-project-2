@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	font-family: 'Roboto';
+	list-style: none;
+}
+
+.head-nav {
+	background-color: #E83434;
+	height: 82px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.right-nav {
+	display: flex;
+	align-items: center;
+}
+
+.head-nav h1 {
+	font-size: 65px;
+	font-family: 'Saira Stencil One';
+}
+
+.search {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-right: 24px;
+}
+
+.search input {
+	width: 350px;
+	height: 45px;
+	border-radius: 10px;
+	border: none;
+}
+
+.search img {
+	position: absolute;
+	right: 0px;
+	margin-right: 1rem;
+}
+
+.head-nav a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	margin-right: 24px;
+}
+
+nav {
+	background-color: #F5E1E1;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin: auto;
+	padding: 16px 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.slide img {
+	width: 100%;
+}
+
+.populars {
+	margin: 32px;
+}
+
+.populars h1 {
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.popular {
+	width: 85%;
+	margin: auto;
+}
+
+.card.popular h4 {
+	font-size: 22px;
+	margin: 8px 0 8px 0;
+}
+
+.card.popular p {
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+.about {
+	background-color: #A54242;
+	padding: 48px;
+}
+
+.about h1 {
+	font-size: 51px;
+	color: white;
+}
+
+.about h1 span {
+	font-family: 'Saira Stencil One';
+	color: black;
+}
+
+.desc-about {
+	display: flex;
+	color: white;
+	align-items: center;
+	font-size: 30px;
+	justify-content: space-between;
+	padding: 24px 98px;
+}
+
+.desc-about p {
+	margin-left: 184px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 24px 48px;
+	align-items: center;
+}
+
+footer h4 {
+	font-size: 36px;
+	font-family: 'Saira Stencil One';
+}
+
+.right-foot {
+	width: 50%;
+}
+
+.right-foot ul li a {
+	font-size: 18px;
+	color: blue;
+}
+
+.content {
+	padding: 24px;
+	width: 90%;
+	margin: auto;
+}
+
+.content h1 {
+	margin-top: 24px;
+	font-size: 36px;
+}
+
+.list-product {
+	margin: 64px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.filter-tab {
+	background-color: #A54242;
+	width: 300px;
+	border-radius: 10px;
+	height: 245px;
+}
+
+.offer {
+	color: white;
+	margin: 28px;
+}
+
+.checkbox {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+
+.checkbox input {
+	margin-right: 8px;
+}
+
+.to {
+	margin-right: 8px;
+}
+
+.offer p {
+	font-size: 17px;
+}
+
+.checkbox p {
+	font-size: 14px;
+}
+
+.input-range {
+	width: 93px;
+	border-radius: 5px;
+	border: none;
+	height: 18px;
+}
+
+.row-list {
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+	margin-left: 24px;
+}
+
+.card-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-list h4 {
+	font-size: 20px;
+	margin-top: 14px;
+}
+
+.card-list p {
+	margin-bottom: 5px;
+}
+
+footer.explore-footer {
+	background-color: #E83434;
+	color: white;
+}
+
+footer.explore-footer .right-foot ul li a {
+	color: white;
+}
+
+.detail {
+	display: flex;
+	width: 90%;
+	margin: 84px auto;
+}
+
+.detail-product h3 {
+	font-size: 48px;
+}
+
+.detail-product p.price {
+	font-size: 30px;
+	font-style: italic;
+}
+
+.detail-product p.desc-prod {
+	font-size: 24px;
+	font-style: italic;
+	margin: 19px 0 32px 0;
+}
+
+.form-buy {
+	font-size: 24px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-buy input {
+	height: 40px;
+	border-radius: 10px;
+	margin: 8px 0 32px 0;
+}
+
+.btn {
+	padding: 13px;
+	border-radius: 50px;
+	border: none;
+}
+
+.btn-primary {
+	background-color: #A03939;
+	color: white;
+	font-size: 24px;
+}
+
+.another-prod {
+	width: 90%;
+	margin: 0 auto 72px auto;
+}
+
+.buyers-review {
+	margin-top: 24px;
+	width: 60%;
+}
+
+.buyers-review h4 {
+	font-size: 24px;
+}
+
+.buyers-review p {
+	font-size: 20px;
+}
