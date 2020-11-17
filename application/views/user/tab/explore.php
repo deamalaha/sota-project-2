@@ -63,78 +63,14 @@
 				</div>
 			</div>
 			<div class="row-list">
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. xxx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. xxx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. xxx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. x2xx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. x2xx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. x2xx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. x2xx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. x2xx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. x2xx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. x2xx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. x2xx.xxx</p>
-				</div>
-				<div class="card-list">
-					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-					<h4>Product name</h4>
-					<p>Seller</p>
-					<p>Rp. x2xx.xxx</p>
-				</div>
+				<?php foreach ($produk as $prd) : ?>
+					<div class="card-list">
+						<img class="product" src="<?php echo base_url() . '/assets/gambarProduk/' . $prd->gambar ?> " alt="">
+						<h4><?php echo $prd->nama_produk ?></h4>
+						<p><?php echo $prd->keterangan ?></p>
+						<p><?php echo $prd->harga ?></p>
+					</div>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</div>

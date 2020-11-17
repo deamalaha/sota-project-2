@@ -5,11 +5,19 @@ class dashboard extends CI_Controller
 {
 	public function index()
 	{
-		$this->load->view('user/index');
+		$data = array(
+			'produk' => $this->Crud->ga('produk'),
+			'title' => 'Halaman Dashboad',
+		);
+		$this->load->view('user/index', $data);
 	}
 	public function explore()
 	{
-		$this->load->view('user/tab/explore');
+		$data = array(
+			'produk' => $this->Crud->ga('produk'),
+			'title' => 'Halaman Dashboad',
+		);
+		$this->load->view('user/tab/explore', $data);
 	}
 	public function detail_product()
 	{

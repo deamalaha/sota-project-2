@@ -98,8 +98,10 @@ ul li a {
 
 .row {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
 }
+
 
 .card {
 	display: flex;
@@ -108,14 +110,14 @@ ul li a {
 }
 
 .popular {
-	width: 85%;
-	margin: auto;
+	margin-right: 24px;
 }
 
 .card.popular h4 {
 	font-size: 22px;
 	margin: 8px 0 8px 0;
 }
+
 
 .card.popular p {
 	font-size: 18px;
@@ -198,7 +200,6 @@ footer h4 {
 .list-product {
 	margin: 64px auto;
 	display: flex;
-	justify-content: space-between;
 }
 
 .filter-tab {
@@ -206,6 +207,7 @@ footer h4 {
 	width: 300px;
 	border-radius: 10px;
 	height: 245px;
+	margin-right: 90px;
 }
 
 .offer {
@@ -245,6 +247,7 @@ footer h4 {
 .row-list {
 	display: flex;
 	gap: 24px;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin-left: 24px;
 }

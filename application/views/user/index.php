@@ -37,43 +37,23 @@
 	<div class="populars">
 		<h1>Popular Right Now</h1>
 		<div class="row popular">
-			<div class="card popular">
-				<img src="<?php echo base_url('assets/img/slider e 1.svg'); ?>" alt="">
-				<h4>Title</h4>
-				<p>seller</p>
-				<p>Rp. xxx.xxx</p>
-			</div>
-			<div class="card popular">
-				<img src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-				<h4>Title</h4>
-				<p>seller</p>
-				<p>Rp. xxx.xxx</p>
-			</div>
-			<div class="card popular">
-				<img src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-				<h4>Title</h4>
-				<p>seller</p>
-				<p>Rp. xxx.xxx</p>
-			</div>
-			<div class="card popular">
-				<img src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-				<h4>Title</h4>
-				<p>seller</p>
-				<p>Rp. xxx.xxx</p>
-			</div>
-			<div class="card popular">
-				<img src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
-				<h4>Title</h4>
-				<p>seller</p>
-				<p>Rp. xxx.xxx</p>
-			</div>
+			<?php foreach ($produk as $prd) : ?>
+				<div class="card popular">
+					<img src="<?php echo base_url() . '/assets/gambarProduk/' . $prd->gambar ?> " alt="">
+					<h4><?php echo $prd->nama_produk ?></h4>
+					<p><?php echo $prd->keterangan ?></p>
+					<p><?php echo $prd->harga ?></p>
+				</div>
+			<?php endforeach; ?>
 		</div>
+
+
 	</div>
-	<div class="about">
+	<div class=" about">
 		<h1>What is <span>SOTA'?</span></h1>
 		<div class="desc-about">
 			<img src="<?php echo base_url('assets/img/logo.svg'); ?>" alt="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor blandit ut scelerisque duis fusce
+			<p>Lorem ipsum dolor sit amet, consectetuqr adipiscing elit. Porttitor blandit ut scelerisque duis fusce
 				vitae. Morbi orci mi blandit sed netus. Ut mauris purus, elementum mauris integer faucibus. Vulputate
 				pharetra amet nibh nisl, cras consectetur.</p>
 		</div>
