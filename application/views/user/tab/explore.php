@@ -3,20 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="<?php echo base_url('css/user.css'); ?>">
 	<title>Document</title>
 </head>
 
 <body>
 	<div class="head-nav">
-		<h1>SOUVANTARA</h1>
+		<h1>SOTA'<span>SouvenirTa'</span></h1>
 		<div class="right-nav">
 			<div class="search">
 				<input type="text">
-				<img src="/assets/img/search-24px 1.svg" alt="">
+				<img src="<?php echo base_url('assets/img/search.svg'); ?>" alt="">
 			</div>
 			<a href="#">Sign in</a>
-			<img class="cart" src="/assets/img/cart.svg" alt="">
+			<img src="<?php echo base_url('assets/img/cart.svg'); ?>" alt="">
 		</div>
 	</div>
 	<nav>
@@ -64,73 +64,73 @@
 			</div>
 			<div class="row-list">
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. xxx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. xxx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. xxx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. x2xx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. x2xx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. x2xx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. x2xx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. x2xx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. x2xx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. x2xx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. x2xx.xxx</p>
 				</div>
 				<div class="card-list">
-					<img src="/assets/img/Rectangle 6.svg" alt="">
+					<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 					<h4>Product name</h4>
 					<p>Seller</p>
 					<p>Rp. x2xx.xxx</p>
@@ -140,12 +140,12 @@
 	</div>
 	<footer class="explore-footer">
 		<div class="copyright">
-			<h4>SOUVANTARA</h4>
-			<p>All Rights Resereved by SOUVANTARA Copyright 2020.</p>
+			<h4>SOTA'</h4>
+			<p>All Rights Resereved by SOTA' Copyright 2020.</p>
 		</div>
 		<div class="right-foot">
 			<ul>
-				<li><a href="">Sell in Souvantara</a></li>
+				<li><a href="">Sell in SOTA'</a></li>
 				<li><a href="">Terms and Condition</a></li>
 				<li><a href="">Help Center</a></li>
 			</ul>

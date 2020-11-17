@@ -20,6 +20,10 @@ body {
 	align-items: center;
 }
 
+.head-nav h1 span {
+	font-size: 24px;
+}
+
 .right-nav {
 	display: flex;
 	align-items: center;
@@ -118,6 +122,12 @@ ul li a {
 	margin-bottom: 8px;
 }
 
+.card.popular img {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+
 .about {
 	background-color: #A54242;
 	padding: 48px;
@@ -176,6 +186,13 @@ footer h4 {
 .content h1 {
 	margin-top: 24px;
 	font-size: 36px;
+}
+
+.detail img.product {
+	width: 529px;
+	height: 695px;
+	background-color: #E83434;
+	margin-right: 32px;
 }
 
 .list-product {
@@ -245,6 +262,11 @@ footer h4 {
 
 .card-list p {
 	margin-bottom: 5px;
+}
+
+.card-list img {
+	height: 220px;
+	width: 220px;
 }
 
 footer.explore-footer {

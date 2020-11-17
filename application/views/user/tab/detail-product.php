@@ -3,20 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="<?php echo base_url('css/user.css'); ?>">
 	<title>Document</title>
 </head>
 
 <body>
 	<div class="head-nav">
-		<h1>SOUVANTARA</h1>
+		<h1>SOTA'<span>SouvenirTa'</span></h1>
 		<div class="right-nav">
 			<div class="search">
 				<input type="text">
-				<img src="/assets/img/search-24px 1.svg" alt="">
+				<img src="<?php echo base_url('assets/img/search.svg'); ?>" alt="">
 			</div>
 			<a href="#">Sign in</a>
-			<img class="cart" src="/assets/img/cart.svg" alt="">
+			<img src="<?php echo base_url('assets/img/cart.svg'); ?>" alt="">
 		</div>
 	</div>
 	<nav>
@@ -33,14 +33,14 @@
 		<p>All categories > Food and Beverages</p>
 		<h1>Food and Beverages</h1>
 		<div class="detail">
-			<img src="/assets/img/koptor 1.svg" alt="">
+			<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
 			<div class="detail-desc">
 				<p>seller name</p>
 				<div class="stars">
-					<img src="/assets/img/star_rate-24px 1.svg" alt="">
-					<img src="/assets/img/star_rate-24px 1.svg" alt="">
-					<img src="/assets/img/star_rate-24px 1.svg" alt="">
-					<img src="/assets/img/star_rate-24px 1.svg" alt="">
+					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
 				</div>
 				<div class="detail-product">
 					<h3>Kopi Toraja</h3>
@@ -58,25 +58,26 @@
 			</div>
 		</div>
 		<div class="another-prod">
-			<img src="/assets/img/koptor2 1.svg" alt="">
-			<img src="/assets/img/koptor2 1.svg" alt="">
-			<img src="/assets/img/koptor2 1.svg" alt="">
+
+			<img src="<?php echo base_url('assets/img/koptor2 1.svg'); ?>" alt="">
+			<img src="<?php echo base_url('assets/img/koptor2 1.svg'); ?>" alt="">
+			<img src="<?php echo base_url('assets/img/koptor2 1.svg'); ?>" alt="">
 		</div>
 		<div class="reviewer">
 			<h1>Product Reviews</h1>
 			<div class="stars">
-				<img src="/assets/img/star_rate-24px 1.svg" alt="">
-				<img src="/assets/img/star_rate-24px 1.svg" alt="">
-				<img src="/assets/img/star_rate-24px 1.svg" alt="">
-				<img src="/assets/img/star_rate-24px 1.svg" alt="">
+				<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+				<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+				<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+				<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
 			</div>
 			<div class="buyers-review">
 				<h4>Buyers name</h4>
 				<div class="stars">
-					<img src="/assets/img/star_rate-24px 1.svg" alt="">
-					<img src="/assets/img/star_rate-24px 1.svg" alt="">
-					<img src="/assets/img/star_rate-24px 1.svg" alt="">
-					<img src="/assets/img/star_rate-24px 1.svg" alt="">
+					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
 				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel enim risus hendrerit ipsum. Velit
 					volutpat
@@ -86,10 +87,10 @@
 		<div class="buyers-review">
 			<h4>Buyers name</h4>
 			<div class="stars">
-				<img src="/assets/img/star_rate-24px 1.svg" alt="">
-				<img src="/assets/img/star_rate-24px 1.svg" alt="">
-				<img src="/assets/img/star_rate-24px 1.svg" alt="">
-				<img src="/assets/img/star_rate-24px 1.svg" alt="">
+				<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+				<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+				<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
+				<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
 			</div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel enim risus hendrerit ipsum. Velit volutpat
 				scelerisque mauris tellus ac. Hac duis tristique egestas leo, maecenas curabitur eget diam.</p>
@@ -98,12 +99,12 @@
 	</div>
 	<footer class="explore-footer">
 		<div class="copyright">
-			<h4>SOUVANTARA</h4>
-			<p>All Rights Resereved by SOUVANTARA Copyright 2020.</p>
+			<h4>SOTA'</h4>
+			<p>All Rights Resereved by SOTA' Copyright 2020.</p>
 		</div>
 		<div class="right-foot">
 			<ul>
-				<li><a href="">Sell in Souvantara</a></li>
+				<li><a href="">Sell in SOTA'</a></li>
 				<li><a href="">Terms and Condition</a></li>
 				<li><a href="">Help Center</a></li>
 			</ul>
