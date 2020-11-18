@@ -10,7 +10,7 @@
 
 <body>
 	<div class="head-nav">
-		<h1>SOTA'<span>SouvenirTa'</span></h1>
+		<a href="<?php echo base_url('user/dashboard') ?>" class="brand">SOTA'<span>SouvenirTa'</span> </a>
 		<div class="right-nav">
 			<div class="search">
 				<input type="text">

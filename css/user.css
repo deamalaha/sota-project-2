@@ -20,6 +20,17 @@ body {
 	align-items: center;
 }
 
+.head-nav a.brand {
+	font-family: 'Saira Stencil One';
+	font-size: 65px;
+	color: black;
+}
+
+.head-nav a.brand span {
+	font-size: 24px;
+}
+
+
 .head-nav h1 span {
 	font-size: 24px;
 }
