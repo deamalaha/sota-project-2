@@ -15,7 +15,7 @@
 				<input type="text">
 				<img src="<?php echo base_url('assets/img/search.svg'); ?>" alt="">
 			</div>
-			<a href="#">Sign in</a>
+			<a href="<?php echo base_url('admin/login') ?>">Sign in</a>
 			<img src="<?php echo base_url('assets/img/cart.svg'); ?>" alt="">
 		</div>
 	</div>
