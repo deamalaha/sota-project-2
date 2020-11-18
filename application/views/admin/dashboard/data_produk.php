@@ -35,8 +35,9 @@
                                 		<td>Rp. <?php echo $prd->harga ?></td>
                                 		<td><?php echo $prd->stok ?></td>
                                 		<td>
-                                			<div class="btn btn-success"><i class="fa fa-search-plus"></i></div>
-	                                		 <button type="button" class="btn mb-1 btn-primary" data-toggle="modal" data-target="#modal_update<?= $prd->id_produk ?>" ><i class="fa fa-edit"></i>
+                                            <button type="button" class="btn mb-1 btn-primary" data-toggle="modal" data-target="#modal_detail<?= $prd->id_produk ?>" ><i class="fa fa-edit"></i>
+                                                    </button>
+	                                		 <button type="button" class="btn mb-1 btn-success" data-toggle="modal" data-target="#modal_update<?= $prd->id_produk ?>" ><i class="fa fa-search-plus"></i>
                                                     </button>
 	                                		<button type="button" class="btn mb-1 btn-danger" data-toggle="modal" data-target="#modal_hapus<?= $prd->id_produk ?>" ><i class="fa fa-trash"></i>
                                                     </button>
@@ -216,6 +217,50 @@
 <?php } ?>
 
 <!-- END Modal Hapus -->
+
+
+<!-- Begin Modal Update -->
+
+    <?php
+     foreach ($produk as $prd):
+        $id = $prd->id_produk; 
+
+     ?>
+            <div class="modal fade" id="modal_detail<?= $id ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <center>
+                                                        <div class="card ml-3 mb-3" style="width: 16rem;">
+                                                            <img class="card-img-top" src="<?php echo base_url() . '/assets/gambarProduk/' . $prd->gambar ?> " alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title mb-1"><?php echo $prd->nama_produk ?></h5>
+                                                                    <small><?php echo $prd->keterangan ?></small>
+                                                                    <br>
+                                                                    <span class="badge badge-pill badge-success mb-3"><?php echo $prd->harga ?></span><br>
+                                                                </div>
+                                                        </div>
+                                                    </center>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+    <?php endforeach; ?>
+
+
+        <!-- modal  -->
+
 
 <script src="<?php echo base_url().'assets/js/jquery-2.2.4.min.js'?>"></script>
 <script src="<?php echo base_url().'assets/js/bootstrap.js'?>"></script>
