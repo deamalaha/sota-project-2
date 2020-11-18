@@ -65,7 +65,7 @@
                                         <li>
                                             <a href="app-profile.html"><i class="icon-user"></i> <span>Profile</span></a>
                                         </li>
-                                        <li><a href="<?= site_url('login/logout') ?>"><i class="icon-key"></i> <span>Logout</span></a></li>
+                                        <li><a href="<?= site_url('admin/login/logout') ?>"><i class="icon-key"></i> <span>Logout</span></a></li>
                                     </ul>
                                 </div>
                             </div>
