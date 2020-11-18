@@ -21,12 +21,12 @@
 	</div>
 	<nav>
 		<ul>
-			<li><a href="">Clothing</a></li>
-			<li><a href="">Accesories</a></li>
-			<li><a href="">Food and Beverages</a></li>
-			<li><a href="">Art and Collectibles</a></li>
-			<li><a href="">Home and Living</a></li>
-			<li><a href="">Others</a></li>
+			<li><a href="#">Clothing</a></li>
+			<li><a href="#">Accesories</a></li>
+			<li><a href="<?php echo base_url('user/dashboard/explore') ?>">Food and Beverages</a></li>
+			<li><a href="#">Art and Collectibles</a></li>
+			<li><a href="#">Home and Living</a></li>
+			<li><a href="#">Others</a></li>
 		</ul>
 	</nav>
 	<div class="content">

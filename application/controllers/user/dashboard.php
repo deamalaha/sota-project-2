@@ -7,7 +7,6 @@ class dashboard extends CI_Controller
 	{
 		$data = array(
 			'produk' => $this->Crud->ga('produk'),
-			'title' => 'Halaman Dashboad',
 		);
 		$this->load->view('user/index', $data);
 	}
@@ -15,7 +14,6 @@ class dashboard extends CI_Controller
 	{
 		$data = array(
 			'produk' => $this->Crud->ga('produk'),
-			'title' => 'Halaman Dashboad',
 		);
 		$this->load->view('user/tab/explore', $data);
 	}
