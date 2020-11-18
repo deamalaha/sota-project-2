@@ -68,7 +68,8 @@
 						<img class="product" src="<?php echo base_url() . '/assets/gambarProduk/' . $prd->gambar ?> " alt="">
 						<h4><?php echo $prd->nama_produk ?></h4>
 						<p><?php echo $prd->keterangan ?></p>
-						<p><?php echo $prd->harga ?></p>
+						<p class="harga"><?php echo $prd->harga ?></p>
+						<button class="btn btn-primary"><a class="link-detail" href="<?php echo base_url('user/dashboard/detail_product'); ?>">Detail</a></button>
 					</div>
 				<?php endforeach; ?>
 			</div>

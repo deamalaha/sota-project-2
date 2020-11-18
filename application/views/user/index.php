@@ -6,12 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="<?php echo base_url('css/user.css'); ?>">
-	<!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-<!-- jQuery and JS bundle w/ Popper.js -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,12 +23,12 @@
 	</div>
 	<nav>
 		<ul>
-			<li><a href="#">Clothing</a></li>
-			<li><a href="#">Accesories</a></li>
+			<li><a href="">Clothing</a></li>
+			<li><a href="">Accesories</a></li>
 			<li><a href="<?php echo base_url('user/dashboard/explore') ?>">Food and Beverages</a></li>
-			<li><a href="#">Art and Collectibles</a></li>
-			<li><a href="#">Home and Living</a></li>
-			<li><a href="#">Others</a></li>
+			<li><a href="">Art and Collectibles</a></li>
+			<li><a href="">Home and Living</a></li>
+			<li><a href="">Others</a></li>
 		</ul>
 	</nav>
 	<div class="slide">
@@ -42,15 +36,14 @@
 	</div>
 	<div class="populars">
 		<h1>Popular Right Now</h1>
-		<div class="row popular">
+		<div class="row-popular">
 			<?php foreach ($produk as $prd) : ?>
-				<div class="card popular">
+				<div class="card-popular">
 					<img src="<?php echo base_url() . '/assets/gambarProduk/' . $prd->gambar ?> " alt="">
-					<h5 class="card-title mb-1"><?php echo $prd->nama_produk ?></h5>
-						<small><?php echo $prd->keterangan ?></small>
-						<br>
-						<span class="badge badge-pill badge-success mb-3"><?php echo $prd->harga ?></span><br>
-						<a href="<?php echo base_url('user/dashboard/detail_product') ?>" class="btn btn-primary">Detail</a>
+					<h4><?php echo $prd->nama_produk ?></h4>
+					<p><?php echo $prd->keterangan ?></p>
+					<p class="harga">Rp. <?php echo $prd->harga ?></p>
+					<button class="btn btn-primary"><a class="link-detail" href="<?php echo base_url('user/dashboard/detail_product'); ?>">Detail</a></button>
 				</div>
 			<?php endforeach; ?>
 		</div>

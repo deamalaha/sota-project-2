@@ -96,35 +96,37 @@ ul li a {
 	margin-bottom: 40px;
 }
 
-.row {
+.row-popular {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+button.btn-primary {
+	text-decoration: none;
+	color: black;
+}
 
-.card {
+.card-popular {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.popular {
 	margin-right: 24px;
 }
 
-.card.popular h4 {
+
+.card-popular h4 {
 	font-size: 22px;
 	margin: 8px 0 8px 0;
 }
 
 
-.card.popular p {
+.card-popular p {
 	font-size: 18px;
 	margin-bottom: 8px;
 }
 
-.card.popular img {
+.card-popular img {
 	height: 200px;
 	width: 200px;
 	border-radius: 100px;
@@ -317,6 +319,15 @@ footer.explore-footer .right-foot ul li a {
 	padding: 13px;
 	border-radius: 50px;
 	border: none;
+	background-color: #A03939;
+	color: white;
+}
+
+p.harga {
+	background-color: #F5E1E1;
+	border-radius: 10px;
+	padding: 5px;
+	color: black
 }
 
 .btn-primary {
@@ -324,6 +335,21 @@ footer.explore-footer .right-foot ul li a {
 	color: white;
 	font-size: 24px;
 }
+
+.card-popular button.btn-primary,
+.card-list button.btn-primary {
+	padding: 5px 10px;
+	margin-top: 20px;
+}
+
+a.link-detail {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+
 
 .another-prod {
 	width: 90%;
