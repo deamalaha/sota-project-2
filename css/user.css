@@ -207,7 +207,7 @@ footer h4 {
 	width: 300px;
 	border-radius: 10px;
 	height: 245px;
-	margin-right: 90px;
+	margin-right: 32px;
 }
 
 .offer {
@@ -247,7 +247,6 @@ footer h4 {
 .row-list {
 	display: flex;
 	gap: 24px;
-	justify-content: center;
 	flex-wrap: wrap;
 	margin-left: 24px;
 }
