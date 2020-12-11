@@ -33,7 +33,8 @@
 		<p>All categories > Food and Beverages</p>
 		<h1>Food and Beverages</h1>
 		<div class="detail">
-			<img class="product" src="<?php echo base_url('assets/img/koptor.svg'); ?>" alt="">
+			<?php foreach ($produk as $prd) : ?>
+			<img class="product" src="<?php echo base_url() . '/assets/gambarProduk/' . $prd->gambar ?> " alt="">
 			<div class="detail-desc">
 				<p>seller name</p>
 				<div class="stars">
@@ -42,14 +43,13 @@
 					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
 					<img src="<?php echo base_url('assets/img/star_rate-24px 1.svg'); ?>" alt="">
 				</div>
+				
 				<div class="detail-product">
-					<h3>Kopi Toraja</h3>
-					<p class="price">Rp. xxx.xxx</p>
-					<p class="desc-prod">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate vitae augue
-						amet nam at cum
-						tincidunt hendrerit id. In suspendisse neque, sed egestas eget nullam euismod. Odio sollicitudin
-						elit dictumst proin integer commodo facilisi. Nunc, in ullamcorper etiam nulla vel nullam.</p>
+					<h3><?php echo $prd->nama_produk ?></h3>
+					<p class="price">Rp.<?php echo $prd->harga ?></p>
+					<p class="desc-prod"><?php echo $prd->keterangan ?></p>
 				</div>
+				
 				<div class="form-buy">
 					<label for="">Quantity</label>
 					<input type="text">
@@ -62,7 +62,7 @@
 			<img src="<?php echo base_url('assets/img/koptor2 1.svg'); ?>" alt="">
 			<img src="<?php echo base_url('assets/img/koptor2 1.svg'); ?>" alt="">
 			<img src="<?php echo base_url('assets/img/koptor2 1.svg'); ?>" alt="">
-		</div>
+		</div><?php endforeach; ?>
 		<div class="reviewer">
 			<h1>Product Reviews</h1>
 			<div class="stars">

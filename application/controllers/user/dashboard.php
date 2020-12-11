@@ -17,8 +17,10 @@ class dashboard extends CI_Controller
 		);
 		$this->load->view('user/tab/explore', $data);
 	}
-	public function detail_product()
+	public function detail_product($id)
 	{
-		$this->load->view('user/tab/detail-product');
+		$where = array('id_produk' => $id);
+		$data = array('produk' => $this->Crud->gw('produk', $where));
+		$this->load->view('user/tab/detail-product', $data);
 	}
 }

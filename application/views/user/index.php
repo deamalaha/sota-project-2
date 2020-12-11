@@ -43,7 +43,7 @@
 					<h4><?php echo $prd->nama_produk ?></h4>
 					<p><?php echo $prd->keterangan ?></p>
 					<p class="harga">Rp. <?php echo $prd->harga ?></p>
-					<button class="btn btn-primary"><a class="link-detail" href="<?php echo base_url('user/dashboard/detail_product'); ?>">Detail</a></button>
+					<button class="btn btn-primary"><a class="link-detail" href="<?php echo base_url('user/dashboard/detail_product/').$prd->id_produk; ?>">Detail</a></button>
 				</div>
 			<?php endforeach; ?>
 		</div>
