@@ -303,7 +303,7 @@ footer.explore-footer .right-foot ul li a {
 	font-size: 48px;
 }
 
-.detail-product p.price {
+.form-buy .detail-product p.price {
 	font-size: 30px;
 	font-style: italic;
 }
@@ -318,6 +318,7 @@ footer.explore-footer .right-foot ul li a {
 	font-size: 24px;
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 
 .form-buy input {
